@@ -1,0 +1,266 @@
+body {
+    text-align: center;
+    padding-top: 200px;
+    background-color: #333333;
+    color: beige;
+}
+#value_of_day_in_week {
+    display: inline;
+    font-size: 60px;
+}
+#value_of_date_in_month {
+    display: inline;
+    font-size: 60px;
+}
+#value_of_month_in_year {
+    display: inline;
+    font-size: 60px;
+}
+#value_of_year {
+    display: inline;
+    font-size: 60px;
+}
+#value_of_hour {
+    display: inline;
+}
+#value_of_minute {
+    display: inline;
+}
+#value_of_second {
+    display: inline;
+}
+#frame {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+}
+#text {
+    font-size: 150px;
+    position: relative;
+    top: -35px;
+}
+#lower_frame {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+}
+#lower_text {
+    font-size: 150px;
+    position: relative;
+    top: -87.5px;
+}
+/* --------------------------------------------------hour-------------------------------------------------- */
+#hour_flipper_base_digit_1 {
+    /* background-color: navy; */
+    height: 110px;
+    width: 75px;
+    padding: 10px;
+    display: inline-block;
+}
+#frame_hour_digit_1 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+}
+#text_hour_digit_1 {
+    font-size: 150px;
+    position: relative;
+    top: -35px;
+}
+#lower_frame_hour_digit_1 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+}
+#lower_text_hour_digit_1 {
+    font-size: 150px;
+    position: relative;
+    top: -87.5px;
+}
+#hour_flipper_base_digit_2 {
+    /* background-color: navy; */
+    height: 110px;
+    width: 75px;
+    padding: 10px;
+    display: inline-block;
+}
+#frame_hour_digit_2 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+}
+#text_hour_digit_2 {
+    font-size: 150px;
+    position: relative;
+    top: -35px;
+}
+#lower_frame_hour_digit_2 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+}
+#lower_text_hour_digit_2 {
+    font-size: 150px;
+    position: relative;
+    top: -87.5px;
+}
+/* --------------------------------------------------minute-------------------------------------------------- */
+#minute_flipper_base_digit_1 {
+    /* background-color: navy; */
+    height: 110px;
+    width: 75px;
+    padding: 10px;
+    display: inline-block;
+}
+#frame_minute_digit_1 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+}
+#text_minute_digit_1 {
+    font-size: 150px;
+    position: relative;
+    top: -35px;
+}
+#lower_frame_minute_digit_1 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+}
+#lower_text_minute_digit_1 {
+    font-size: 150px;
+    position: relative;
+    top: -87.5px;
+}
+#minute_flipper_base_digit_2 {
+    /* background-color: navy; */
+    height: 110px;
+    width: 75px;
+    padding: 10px;
+    display: inline-block;
+}
+#frame_minute_digit_2 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+}
+#text_minute_digit_2 {
+    font-size: 150px;
+    position: relative;
+    top: -35px;
+}
+#lower_frame_minute_digit_2 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+}
+#lower_text_minute_digit_2 {
+    font-size: 150px;
+    position: relative;
+    top: -87.5px;
+}
+/* --------------------------------------------------second-------------------------------------------------- */
+#second_flipper_base_digit_1 {
+    /* background-color: navy; */
+    height: 110px;
+    width: 75px;
+    padding: 10px;
+    display: inline-block;
+}
+#frame_second_digit_1 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+}
+#text_second_digit_1 {
+    font-size: 150px;
+    position: relative;
+    top: -35px;
+}
+#lower_frame_second_digit_1 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+}
+#lower_text_second_digit_1 {
+    font-size: 150px;
+    position: relative;
+    top: -87.5px;
+}
+#second_flipper_base_digit_2 {
+    /* background-color: navy; */
+    height: 110px;
+    width: 75px;
+    padding: 10px;
+    display: inline-block;
+}
+#frame_second_digit_2 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+}
+#text_second_digit_2 {
+    font-size: 150px;
+    position: relative;
+    top: -35px;
+}
+#lower_frame_second_digit_2 {
+    height: 52.5px;
+    width: 75px;
+    /* background-image: linear-gradient(black, lightgrey); */
+    color: beige;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+}
+#lower_text_second_digit_2 {
+    font-size: 150px;
+    position: relative;
+    top: -87.5px;
+}
+#colon_seperator {
+    display: inline-block;
+    /* background-color: navy; */
+    color: beige;
+    height: 130px;
+    width: 30px;
+    font-size: 130px;
+}
